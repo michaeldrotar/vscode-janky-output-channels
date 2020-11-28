@@ -1,23 +1,22 @@
 {
   "name": "janky-output-channels",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "displayName": "Janky Output Channels",
   "description": "Output channels are a little, well... janky! They don't even have color for extension logs, but the built-in ones do, so let's share the love!",
   "categories": [
     "Other"
   ],
-  "homepage": "https://github.com/michaeldrotar/janky-output-channels",
+  "homepage": "https://github.com/michaeldrotar/vscode-janky-output-channels",
   "bugs": {
-    "url": "https://github.com/michaeldrotar/janky-output-channels/issues"
+    "url": "https://github.com/michaeldrotar/vscode-janky-output-channels/issues"
   },
   "license": "MIT",
   "author": "michaeldrotar",
-  "main": "./out/extension.js",
+  "publisher": "michaeldrotar",
   "repository": {
     "type": "git",
-    "url": "https://github.com/michaeldrotar/janky-output-channels.git"
+    "url": "https://github.com/michaeldrotar/vscode-janky-output-channels.git"
   },
-  "activationEvents": [],
   "contributes": {
     "languages": [
       {
@@ -27,6 +26,9 @@
         ]
       }
     ]
+  },
+  "scripts": {
+    "package": "vsce package"
   },
   "engines": {
     "vscode": "^1.51.0"
